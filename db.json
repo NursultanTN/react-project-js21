@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "title": "messi",
+      "description": "barca",
+      "price": 70000,
+      "image": "https://www.sport.ru/ai/files/tags_attrs/r63/9e42b41b6000.jpg",
+      "id": 1
+    },
+    {
+      "title": "Toyota Camry",
+      "description": "75",
+      "price": 50000,
+      "image": "https://osnova.news/i/n/9589/13799836.jpg",
+      "id": 2
+    },
+    {
+      "title": "Mercedes Gelenvagen",
+      "description": "mers",
+      "price": 60000,
+      "image": "https://carakoom.com/data/wall/787/6434237a_medium.jpg",
+      "id": 3
+    },
+    {
+      "title": "Toyota Alphard",
+      "description": "restailing",
+      "price": 60000,
+      "image": "https://weststarmotors.com.my/wp-content/uploads/2021/08/Front-1-5.jpg",
+      "id": 4
+    }
+  ]
+}
