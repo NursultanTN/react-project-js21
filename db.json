@@ -27,6 +27,27 @@
       "price": 60000,
       "image": "https://weststarmotors.com.my/wp-content/uploads/2021/08/Front-1-5.jpg",
       "id": 4
+    },
+    {
+      "title": "lkjsdflc;ajd",
+      "description": "slkdjfipehrp",
+      "price": 876976486537,
+      "image": "wdfljow[dijri[v",
+      "id": 5
+    },
+    {
+      "title": "Toyota Crown",
+      "description": "Hybrid 2.5",
+      "price": 23000,
+      "image": "https://i.i-sgcm.com/cars_used/202105/998441_2b.jpg",
+      "id": 6
+    },
+    {
+      "title": "Toyota Caldina",
+      "description": "2.0",
+      "price": 7000,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/2002-2004_Toyota_Caldina_GT-FOUR.jpg/800px-2002-2004_Toyota_Caldina_GT-FOUR.jpg",
+      "id": 7
     }
   ]
 }

@@ -16,8 +16,11 @@ import { cartContext } from "../../contexts/cartContext/cartContext";
 
 export default function ProductCard({ item }) {
   const { deleteProduct } = React.useContext(productsContext);
-  const { addToCart } = React.useContext(cartContext);
+  const { addToCart, checkProductInCart } = React.useContext(cartContext);
   const navigate = useNavigate();
+  const [productState, setProductState] = React.useState(
+    checkProductInCart(item.id)
+  );
   return (
     <Card sx={{ maxWidth: 345, margin: "10px" }}>
       <CardMedia
@@ -44,8 +47,12 @@ export default function ProductCard({ item }) {
         <Button size="small" onClick={() => navigate(`/details/${item.id}`)}>
           Details
         </Button>
-        <IconButton onClick={() => addToCart(item)}>
-          <AddShoppingCartIcon color="primary" />
+        <IconButton
+          onClick={() => {
+            addToCart(item);
+            setProductState(checkProductInCart(item.id));
+          }}>
+          <AddShoppingCartIcon color={productState ? "secondary" : "primary"} />
         </IconButton>
       </CardActions>
     </Card>
